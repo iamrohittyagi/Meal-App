@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "mysoul";
+    src: url(fonts/MySoul-Regular.ttf);
+}
+
+body{
+    background-color: #FDD521;
+}
+
+#app-name{
+    font-family: mysoul,Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.nav-item .active{
+    margin-right: 2rem;
+}
+ 
+
+
+.carousel-item{
+    height: 32rem;
+    background: #777;
+    color: white;
+    position: relative;
+}
+
+.carousel-item img{
+    height: 35rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.d-flex{
+    margin: auto;
+    margin-top: -22rem;
+}
+
+.form-control{
+    width: 50vw;
+}
+
+#search{
+    font-size: 1.5rem;
+    font-weight: 900;
+}  
+
+button span{
+    display: inline-block;
+}
+
+button span ion-icon{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#ion-icon{
+ font-weight: 700;
+}
+
+
+
+/* style external meal list(api meal list) */
+
+#meals-list a{
+    display: inline-block;
+
+}
+
+ #meals-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} 
+
+
+#meals-list li{
+    margin: 1rem;
+    
+} 
+
+.meal .card{
+    border-radius: 50%;
+}
+
+
+.meal .card-body{
+    background-color: black;
+    color: white;
+   
+}
+
+
+
+.meal-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.meal-name i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+/* icon inner color when click on icon   */
+.fas{
+    color:red;
+}
+

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "mysoul";
+    src: url(fonts/MySoul-Regular.ttf);
+}
+
+body{
+    background-color: #FDD521;
+}
+
+#app-name{
+    font-family: mysoul,Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.nav-item{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.nav-item .active{
+    margin-right: 2rem;
+}
+ 
+
+
+
+
+
+
+
