@@ -1,7 +1,7 @@
 searchBar = document.getElementById("search-bar");
 mealsList = document.getElementById("meals-list");
 container = document.getElementById("container");
-searchBtn = document.getElementById("search-btn");
+// searchBtn = document.getElementById("search-btn");
 let isFav = 'fas';
 let notFav = 'far';
 let meals = [];
@@ -14,10 +14,10 @@ searchBar.addEventListener('keyup', (e) => {
 })
 
 //added eventlistner to searchButton
-searchBtn.addEventListener('click', () => {
-    const searchString = searchBar.e.value.toLowerCase();
-    getResults(searchString);
-})
+// searchBtn.addEventListener('click', () => {
+//     const searchString = searchBar.e.value.toLowerCase();
+//     getResults(searchString);
+// })
 
 
 //making api call and getting results on the basis of key tapped
@@ -81,7 +81,7 @@ searchList.addEventListener('click', (e) => {
     if (e.target.className == 'recipe-name') {
         let recipeId = e.target.parentNode.id;
         window.open(`recipe.html?id=${recipeId}`);
-
+ 
     } else if (e.target.classList.contains('fav-btn')) {
         let recipeId = e.target.parentNode.id;
         console.log(recipeId);

@@ -21,6 +21,13 @@ body{
 .nav-item .active{
     margin-right: 2rem;
 }
+
+/* ?media query for smaller screens */
+@media screen and (min-width: 480px){
+    #main-image{
+        width: 480px;
+    }
+}
  
 
 

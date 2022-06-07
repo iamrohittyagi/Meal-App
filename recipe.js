@@ -18,7 +18,7 @@ const getDetails=async (recipeId)=>{
 //adding details on dom
 const showDetails=(meal)=>{
     const photo=document.getElementById("main-image");
-    photo.innerHTML=`<img src=${meal.meals[0].strMealThumb}>`;
+    photo.innerHTML=`<img src=${meal.meals[0].strMealThumb} >`;
     const name=document.getElementById("meal-name");
     name.innerText=meal.meals[0].strMeal;
     const instruction=document.getElementById("instruction");
